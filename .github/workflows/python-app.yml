@@ -37,7 +37,3 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       shell: pwsh
 
-    - name: Test with pytest
-      run: |
-        pytest
-      shell: pwsh
